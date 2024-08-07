@@ -9,7 +9,7 @@
 <input type="text" id="messageInput" />
 <button onclick="sendMessage()">Send</button>
 <script>
-const socket = new WebSocket('ws://localhost:8080');
+const socket = new WebSocket('https://moysed.github.io/AS5-Express02_Chatapp/');
 socket.addEventListener('open', () => {
 console.log('Connected to WebSocket server.');
 });
